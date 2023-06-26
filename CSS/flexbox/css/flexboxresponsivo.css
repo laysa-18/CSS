@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #2d3250;
+}
+
+nav{
+    margin: 10px;
+    padding: 5px;
+}
+
+nav > .titulo{
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #c9770c;
+}
+
+.menu{
+    text-align: center;
+    display: flex;
+}
+
+.menu > .esquerda{
+    background-color: #5a6083;
+    padding: 10px;
+    flex: 50%;
+}
+
+.menu > .direita{
+    background-color: #c9770c;
+    padding: 10px;
+    flex: 50%;
+}
+
+@media(max-width: 800px){
+    .menu{
+        flex-direction: column;
+    }
+}
+

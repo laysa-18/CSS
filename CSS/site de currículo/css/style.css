@@ -1,0 +1,28 @@
+:root{
+    --letras--:#00778c;
+    --fundo--:#00b1c5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: auto;
+    max-width: 1400px;
+    background-color: var(--fundo--);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal{
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .principal{
+        flex-direction: column;
+    }
+}
+
